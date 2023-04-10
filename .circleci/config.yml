@@ -49,4 +49,4 @@ workflows:
       - build-and-test
       - run:
           name: Run UnitTest
-          command: ./gradlew testDemoDebugUnitTest
+          command: ./gradlew testDebugUnitTest
